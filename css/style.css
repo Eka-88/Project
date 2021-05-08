@@ -1,0 +1,148 @@
+/* <base classes> */
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* <base classes> */
+/* <pseudo classes> */
+.d-flex{
+    display: flex;
+}
+/* <pseudo classes> */
+/* <header> */
+.logo{
+    text-align: center;
+}
+.logo-img{
+    max-width: 300px;
+    width: 100%;
+}
+.header-wrapper{
+    justify-content: space-between;
+    align-items: center; 
+    padding: 30px 0;
+}
+.header-bg{
+    background-color: #d93573;
+}
+.fa-search{
+    width: 21px;
+    color: #FFFFFF;
+}
+.search-text{
+    color:#FFFFFF;
+    font-size: 18px;
+    font-family: 'Poppins-Medium';
+    text-transform: uppercase;
+}
+.nav-a{
+    color:#FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Poppins-Medium';
+    transition: 0.5s;
+}
+.action{
+    color: purple;
+}
+.nav-a:hover{
+    color: purple;
+}
+.nav-li:hover{
+    transform:scale(1.1)
+}
+.nav-li{
+    padding: 0 15px;
+    transition: 0.5s;
+}
+.fa-bars{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0 15px;
+    display: none;
+}
+.sign-in{
+    text-align: center;
+}
+.fa-user-circle{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.profile-text{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.fa-shopping-cart{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.profile{
+    align-items: center;
+}
+/* <header> */
+
+/* <section1> */
+.section1{
+    background-image: url(../images/diana-olfert-JZVrDQAm_gk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.text-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.titile,
+.title-2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    color:#E72463;
+    margin-bottom: 20px;
+}
+.title-text{
+    font-family: 'Poppins-Medium';
+    color:#E72463;
+    font-size: 18px;
+}
+.titile-btn{
+    max-width: 150px;
+    width: 100%;
+    height: 50px;
+    background-color: #E72463;
+    border: none;
+    margin-top:50px;
+    color: #FFFFFF;
+    font-family: 'Poppins-Medium';
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* <section1> */
+/* <section2> */
+.box-wrapper{
+    justify-content: space-between;
+    align-items: center;
+}
+.text-box{
+    max-width: 425px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.rightboximg{
+    max-width: 540px;
+    width: 100%;
+    height: 426px;
+    object-fit: cover;
+}
+/* <section2> */
