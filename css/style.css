@@ -695,6 +695,15 @@ body{
 /* <footer> */
 
 /* <contact page style> */
+.form-wrapper{
+    background-image: url(../images/18F_large.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: auto; 
+    padding: 20px;
+}
 .contact-section2{
     padding: 60px 0;
     background-color: #F5F2F4;
@@ -736,6 +745,12 @@ body{
 }
 /* <contact section3> */
 .contact-section3{
+    /* background-image: url(../images/18F_large.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: auto; */
     padding: 50px 0 70px;
 }
 .contact-title-wrapper{
@@ -766,21 +781,26 @@ body{
 .message-box {
     flex-direction: column;
 }
-label{
-    font-size: 16px;
-    font-family: 'Poppins-Regular';
-    margin-bottom: 10px;
-    letter-spacing: 1px;
-}
 .input-box input{
     height: 50px;
     border: 2px solid #E8E8E8;
+    background-color:#F8F8F8;
 }
+.contact-input::placeholder,
+.textarea::placeholder{
+    padding: 20px;
+    color: #CECECE;
+    font-size: 13px;
+    font-family: 'Poppins-Regular';
+}
+
 .textarea{
+    padding: 5px;
     height: 200px;
     border: 2px solid #E8E8E8;
     margin-bottom: 40px;
 }
+
 .contact-btn{
     border: none;
     background-color: #e25896;
