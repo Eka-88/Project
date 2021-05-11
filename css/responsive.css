@@ -79,6 +79,7 @@
     .logo-img{
         max-width: 200px; 
     }
+    .search,
     .fa-search,
     .search-text{
         display: none;
@@ -217,6 +218,7 @@
     .nav-wrapper{
         display: none;
     }
+    .nav-bar,
     .fa-bars{
         display: block;
     }
@@ -460,3 +462,91 @@
     }
 }
 /* <contact page styles> */
+/* <about page responsive> */
+@media(max-width:1024px){
+    .about-text-wrapper h2{
+        font-size: 18px;
+    }
+    .text-block h2{
+        font-size: 25px;
+    }
+    .service-title-box h2,
+    .team-title-wrapper h2{
+        font-size: 35px;
+    }
+    .team-img-text h2{
+        font-size: 18px;
+    }
+    .team-img-text p{
+        font-size: 14px;
+    }
+}
+@media(max-width:860px){
+    .about-titile{
+        font-size: 40px;
+    }
+    .about-title2,
+    .about-title3{
+        font-size: 20px;
+    }
+    .about-text-wrapper h2{
+        font-size: 16px;
+    }
+    .service-title-box h2,
+    .team-title-wrapper h2{
+        font-size: 30px;
+    }
+    .team-box{
+        width: 47%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:654px){
+    .about-section2{
+        margin:60px 0 10px;
+    }
+    .about-titile{
+        font-size: 32px;
+    }
+    .about-text-box{
+        height: auto;
+        width: 100%;
+    }
+    .text-block{
+        padding: 50px 20px;
+        height: auto;
+        width: 100%;
+    } 
+    .about-img{
+        height: 400px;
+        width: 100%;
+    }
+    .text-block p{
+        font-size: 14px;
+    }
+    .about-section3{
+        padding:60px 0;
+    }
+    .service-title-box h4,
+    .team-title-wrapper h3{
+        font-size: 18px;
+    }
+    .service-title-box h2,
+    .team-title-wrapper h2{
+        font-size: 25px;
+    }
+    .service-box{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .team-img-wrapper{
+        justify-content: center;
+    }
+    .team-box{
+        width: 80%;
+    }
+}
+@media (max-width:380px){
+    
+}
+/* <about page responsive> */
