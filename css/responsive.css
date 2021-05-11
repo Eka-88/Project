@@ -1,0 +1,403 @@
+/* <home page styles> */
+@media (max-width:1024px) {
+    .container{
+        width: 95%;
+    }
+    .search-text{
+        font-size: 14px;
+    }
+    .nav-a,
+    .profile-text{
+        font-size: 16px;
+    }
+    /* <section2> */
+    .leftboxh2{
+        font-size: 30px;
+    }
+    .leftboxtext{
+        font-size: 16px;
+    }
+    .leftboxbtn{
+        padding: 15px 10px; 
+    }
+    .rightboximg{
+        height: 400px;
+    }
+    /* </section2> */
+    /* <section3> */
+    .section3-title{
+        font-size: 35px;
+    }
+    .section3-img1,
+    .section3-img2,
+    .section3-img3,
+    .section3-img4,
+    .section3-img5,
+    .section3-img6{
+        height: 400px;
+    }
+    /* <section3> */
+    /* <section4> */
+    .section4-bg{
+        padding: 60px 0;
+    }
+    .sec4-title{
+        font-size: 30px;
+    }
+    .icon-text-box h2{
+        font-size: 20px;
+    }
+    .icon-text-box p{
+        font-size: 14px;
+    }
+    /* <section4> */
+    /* <section5> */
+    .section5{
+        margin-top: 80px; 
+    }
+    .plant2{
+        width: 31%;
+        height: 520px;
+    }
+    /* <section5> */
+    /* <section 6> */
+    .sec6-title-wrapper h2,
+    .sec7-title-wrapper h2{
+        font-size: 35px;
+    }
+    .cust-box h2{
+        font-size: 22px;
+    }
+    /* <section 6> */
+    /* <section7> */
+    .blog-title-a{
+        font-size: 18px;
+    }
+
+}
+@media (max-width:860px){
+    .logo-img{
+        max-width: 200px; 
+    }
+    .fa-search,
+    .search-text{
+        display: none;
+    }
+    .nav-li{
+        padding: 0 10px;
+    }
+    .nav-a{
+        font-size: 14px;
+    }
+    .fa-user-circle{
+        font-size: 18px;
+    }
+    .fa-shopping-cart{
+        font-size: 20px;
+    }
+    /* <section1> */
+    .section1{
+        background-size:inherit;
+        height:300px;
+    }
+    .titile,
+    .title-2{
+        font-size: 35px;
+    }
+    .title-text{
+        font-size: 16px;
+    }
+    .titile-btn{
+        height: 40px;
+    }
+    /* </section1> */
+    /* <section2> */
+    .leftboxh5{
+        font-size: 20px;
+    }
+    .leftboxh2{
+        font-size: 25px;
+    }
+    .leftboxtext{
+        font-size: 14px;
+    }
+    .leftboxbtn{
+        max-width: 200px;
+        padding: 10px 5px; 
+        font-size: 14px;
+    }
+    .rightboximg{
+        height: 350px;
+    }
+    /* <section2> */
+    /* <section3> */
+    .section3-title{
+        font-size: 30px;
+    }
+    .img-box{
+        width: 45%;
+    }
+    /* <section3> */
+    /* <section4> */
+    .florist{
+        height: 400px;
+    }
+    .sec4-title{
+        font-size: 25px;
+    }
+    .icon-text-box h2{
+        font-size: 18px;
+    }
+    .icon-text-box p{
+        font-size: 12px;
+    }
+    .icon-wrapper img{
+        width: 40px;
+    }
+    /* <section4> */
+    /* <section5> */
+    .section5-wrapper{
+        flex-wrap: wrap;
+    }
+    .sec5-text-wrapper{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .plant1,
+    .plant2{
+        width: 46%;
+    }
+    /* </section5> */
+    /* <section6> */
+    .sec6-title-wrapper h2,
+    .sec7-title-wrapper h2{
+        font-size: 25px;
+    } 
+    .cust-box{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+     /* <section6> */
+     /* <section7> */
+    .post-box{
+        width: 45%;   
+    }
+    .post-box:last-child{
+        /* margin-top: 20px; */
+        width: 90%;
+        margin:20px auto;
+    }
+     /* <section7> */
+    /* <footer> */
+    .footer-left img{
+        width: 150px;
+    }
+    .footer-text{
+        font-size: 12px;
+    }
+    .footer-box-title{
+        font-size: 16px;
+    }
+    .footer-li a{
+        font-size: 12px;
+    }
+    .contact-li a{
+        font-size: 12px;
+    }
+    .copy{
+        margin-top: 10px; 
+    }
+    .chat{
+        right: 20px; 
+    }
+
+    /* </footer> */
+}
+@media (max-width:620px){
+    .nav-wrapper{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    /* <section1> */
+    .text-container{
+        max-width: 300px;
+        width: 100%;
+    }
+    .titile,
+    .title-2{
+        font-size: 30px;
+    }
+    .title-text{
+        font-size: 14px;
+    }
+    .titile-btn{
+        height: 30px;
+        margin-top:20px;
+        font-size: 13px;
+    }
+    /* <section1> */
+    /* <section2> */
+    .box-wrapper{
+        flex-wrap: wrap-reverse;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .box-wrapper2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .right-box{
+        width: 80%;
+    }
+    .left-box{
+        width: 80%;
+    }
+    .rightboximg{
+        margin-bottom: 10px;
+    }
+    .leftboxh5{
+        font-size: 18px;
+    }
+    .leftboxh2{
+        font-size: 20px;
+    }
+    .leftboxtext{
+        font-size: 12px;
+    }
+    .leftboxbtn{
+        max-width: 150px;
+        padding: 5px 5px; 
+        font-size: 12px;
+    }
+    /* <section2> */
+    /* <section3> */
+    .section3-title{
+        font-size: 22px;
+    }
+    .img-box{
+        width: 80%;
+    }
+    .imgbox-wrapper{
+        justify-content: center;
+    }
+    /* <section3> */
+    /* <section4> */
+    .section4-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section4-text-wrapper{
+        width: 80%;
+    }
+    .florist{
+        width: 80%;
+        margin:0px 0px 20px;
+    }
+     /* </section4> */
+     /* <section5> */
+     .section5-wrapper{
+         justify-content: center;
+     }
+     .sec5-text-wrapper{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .plant1,
+    .plant2{
+        width: 80%;
+        height: 400px;
+    }
+    .plant2{
+        margin-top: 30px;
+    }
+    .sec5-text-wrapper h2{
+        font-size: 22px;
+    }
+    .sec5-text-wrapper p{
+        font-size: 14px;
+    }
+     /* <section5> */
+     /* <section6> */
+     .sec6-title-wrapper h2,
+     .sec7-title-wrapper h2{
+         font-size: 22px;
+     } 
+     .cust-box{
+        width: 48%;
+    }
+     /* <section6> */
+     /* <section7> */
+     .post-box{
+        width: 90%; 
+        margin:20px auto;  
+    }
+    .icon-wrapper i{
+        font-size: 20px;
+    }
+     /* <section7> */
+      /* <footer> */
+      .footer-left{
+        width: 80%;
+    }
+    .footer-right{
+        width: 80%;
+    }
+    .footer-wrapper{
+        flex-wrap: wrap;
+    }
+    .copy{
+        max-width: 320px;
+        font-size: 10px;
+    }
+    
+}
+@media (max-width:380px){
+    .text-container{
+        max-width: 300px;
+        width: 100%;
+    }
+    .titile,
+    .title-2{
+        font-size: 25px;
+    }
+    .title-text{
+        font-size: 14px;
+    }
+    .titile-btn{
+        max-width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    /* <section6> */
+    .cust-box{
+        width: 80%;
+    }
+    .sec6-title-wrapper h2{
+         font-size: 20px;
+         line-height: 40px;
+     } 
+     .cust-box-wrapper{
+         justify-content: center;
+     }
+     /* <section6> */
+     /* <section7> */
+     .blog-title-a{
+        font-size: 18px;
+     }
+     .blog-text{
+         font-size: 12px;
+     }
+     /* <footer> */
+     .footer-left{
+        width: 80%;
+    }
+    .footer-wrapper{
+        flex-wrap: wrap;
+    }
+    .footer-box:last-child{
+        margin-top: 30px;
+    }
+}
+/* <home page styles> */
