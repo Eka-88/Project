@@ -10,7 +10,32 @@
     display: flex;
 }
 /* <pseudo classes> */
+body{
+    position: relative;
+}
+.chat{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    position: fixed;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    font-size: 14px;
+}
+.fa-comment-dots{
+    font-size:16px ;
+}
+.fb-like{
+    
+}
 /* <header> */
+.header{
+    /* position: absolute; */
+    z-index: 4;
+}
 .logo{
     text-align: center;
 }
@@ -606,24 +631,7 @@
     font-weight: bold;
 }
 /* </section7> */
-body{
-    position: relative;
-}
-.chat{
-    position: absolute;
-    right: 50px;
-    bottom: 50px;
-    position: fixed;
-    padding: 15px;
-    border-radius: 50px;
-    border: none;
-    background-color: cornflowerblue;
-    cursor: pointer;
-    font-size: 14px;
-}
-.fa-comment-dots{
-    font-size:16px ;
-}
+
 /* <footer> */
 .footer{
     background-color: #C47EAC;
@@ -850,8 +858,10 @@ body{
     font-family: 'Poppins-Regular';
     color:white;
     font-weight: bold;
-    cursor: pointer;
     transition: 0.2s;
+}
+.about-title3 a{
+    color:white;
 }
 .about-title3:hover{
     transform: scale(1.1);
