@@ -1117,7 +1117,7 @@ body{
 .select{
     height: 40px;
     width: 150px;
-    font-size: 14;
+    font-size: 14px;
     font-family: 'Poppins-Regular';
     text-transform: uppercase;
     border-radius: 5px;
