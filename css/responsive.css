@@ -124,9 +124,12 @@
     }
     .leftboxbtn{
         max-width: 200px;
-        padding: 10px 5px; 
+        padding: 10px 5px;  
+    }
+    .leftboxbtn a{
         font-size: 14px;
     }
+
     .rightboximg{
         height: 350px;
     }
@@ -237,8 +240,11 @@
     .titile-btn{
         height: 30px;
         margin-top:20px;
+    }
+    .titile-btn a{
         font-size: 13px;
     }
+
     /* <section1> */
     /* <section2> */
     .box-wrapper{
@@ -270,7 +276,9 @@
     }
     .leftboxbtn{
         max-width: 150px;
-        padding: 5px 5px; 
+        padding: 5px 5px;
+    }
+    .leftboxbtn a{
         font-size: 12px;
     }
     /* <section2> */
@@ -370,6 +378,8 @@
     .titile-btn{
         max-width: 100px;
         height: 30px;
+    }
+    .titile-btn a{
         font-size: 12px;
     }
     /* <section6> */
@@ -546,7 +556,55 @@
         width: 80%;
     }
 }
-@media (max-width:380px){
-    
-}
 /* <about page responsive> */
+/* <shop page styles> */
+@media(max-width:1024px){
+    .shop-page-title{
+        font-size: 30px;
+    }
+    .shop-img-box{
+        width: 31%;
+    }
+    .shop-img-box:first-child,
+    .shop-img-box:last-child{
+        display: none;
+    }
+}
+@media(max-width:860px){
+    .shop-page-title{
+        font-size: 25px;
+    }
+}
+@media(max-width:654px){
+    .shop-page-title{
+        font-size: 20px;
+    }
+    .shop-title p{
+        display: none;
+    }
+    .shop-img-box:first-child,
+    .shop-img-box:last-child{
+        display: block;
+    }
+    .shop-img-box{
+        width: 48%;
+    }
+}
+@media (max-width:380px){
+    .browse label{
+        font-size: 16px;
+    }
+    .select{
+        height: 30px;
+        width: 150px;
+        font-size: 12;
+    }
+    .shop-img-box{
+        width: 90%;
+    }
+    .products{
+        justify-content: center;
+    }
+}
+
+/* <shop page styles> */

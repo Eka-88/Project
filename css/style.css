@@ -117,18 +117,23 @@
     margin-bottom: 10px;
 }
 .titile-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 150px;
     width: 100%;
-    height: 50px;
+    height: 40px;
     background-color: #E72463;
     border: none;
-    margin-top:40px;
-    color: #FFFFFF;
     font-family: 'Poppins-Regular';
     font-size: 15px;
     text-transform: uppercase;
-    cursor: pointer;
     border-radius: 40px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+.titile-btn a{
+    color: white;
 }
 
 /* <section1> */
@@ -172,12 +177,14 @@
     padding: 20px 16px;
     border: none;
     border-radius: 40px;
-    color: #FFFFFF;
     text-transform: uppercase;
     font-size: 16px;
     font-family: 'Poppins-Regular';
-    cursor: pointer;
-
+    margin: 0 auto;
+    text-align: center;
+}
+.leftboxbtn a{
+    color: #FFFFFF;
 }
 .right-box{
     width: 48%;
@@ -868,7 +875,7 @@ body{
 /* </section1> */
 /* <section2> */
 .about-section2{
-    margin:80px 0;
+    margin:60px 0;
 }
 .about-text-wrapper{
     flex-wrap: wrap;
@@ -1063,3 +1070,182 @@ body{
 }
 /* </section4> */
 /* </about page styles> */
+/* <shop page styles> */
+.shop-section1{
+    margin:0 0 50px ;
+    background-image: url(../images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 60px 0;
+}
+.shop-page-title{
+    max-width: 650px;
+    width: 100%;
+    margin:0 auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color:black;
+    background-color: blanchedalmond;
+    opacity: 0.8;
+    padding: 5px 0;
+    font-style: italic;
+    text-align: center;
+}
+/* <section2> */
+.shop-section2{
+    margin-bottom: 60px;
+}
+.shop-title{
+    justify-content: space-between;
+    align-items: center;
+    margin:40px 0;
+}
+.shop-title p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.browse label{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+.select{
+    height: 40px;
+    width: 150px;
+    font-size: 14;
+    font-family: 'Poppins-Regular';
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #d93573;
+    outline: none;
+}
+.products{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.shop-img-box{
+    width: 23%;
+    margin-bottom: 30px;
+}
+.shop-section-img1,
+.shop-section-img2,
+.shop-section-img3,
+.shop-section-img4,
+.shop-section-img5,
+.shop-section-img6,
+.shop-section-img7,
+.shop-section-img7,
+.shop-section-img8,
+.shop-section-img9,
+.shop-section-img10,
+.shop-section-img11,
+.shop-section-img12,
+.shop-section-img13,
+.shop-section-img14,
+.shop-section-img15,
+.shop-section-img16,
+.shop-section-img17,
+.shop-section-img18,
+.shop-section-img19,
+.shop-section-img20{   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 270px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.shop-section-img1{
+    background-image: url(../images/3.jpeg);
+}
+.shop-section-img2{
+    background-image: url(../images/2.jpeg);
+}
+.shop-section-img3{
+    background-image: url(../images/img2.jpeg);
+}
+.shop-section-img4{
+    background-image: url(../images/1.jpeg);
+}
+.shop-section-img5{
+    background-image: url(../images/4.jpeg);
+}
+.shop-section-img6{
+    background-image: url(../images/5.jpeg);
+}
+.shop-section-img7{
+    background-image: url(../images/6.jpeg);
+}
+.shop-section-img8{
+    background-image: url(../images/plant3.jpeg);
+}
+.shop-section-img9{
+    background-image: url(../images/7.jpeg);
+}
+.shop-section-img10{
+    background-image: url(../images/8.jpeg);
+}
+.shop-section-img11{
+    background-image: url(../images/9.jpeg);
+}
+.shop-section-img12{
+    background-image: url(../images/img3.jpeg);
+}
+.shop-section-img13{
+    background-image: url(../images/13.jpeg);
+}
+.shop-section-img14{
+    background-image: url(../images/11.jpeg);
+}
+.shop-section-img15{
+    background-image: url(../images/10.jpeg);
+}
+.shop-section-img16{
+    background-image: url(../images/12.jpeg);
+}
+.shop-section-img17{
+    background-image: url(../images/14.jpeg);
+}
+.shop-section-img18{
+    background-image: url(../images/img1.jpeg);
+}
+.shop-section-img19{
+    background-image: url(../images/15.jpeg);
+}
+.shop-section-img20{
+    background-image: url(../images/16.jpeg);
+}
+
+
+
+.fl-price{
+    font-weight: bold;
+    font-size: 14px;
+}
+.buy{
+    transform: scale(0);
+    transition: 0.3s linear;
+}
+.shop-img-box:hover .buy{
+    transform: scale(1);
+}
+.shop-img-box:hover .effect{
+    opacity: 0.7;
+}
+.shop-img-box:hover .add{
+    color:#E72463;
+}
+.shop-img-box:hover .fl-cart{
+    color:#E72463;
+}
+/* <section2> */
+/* <shop page styles> */
