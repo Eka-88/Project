@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* <home page styles> */
 @media (max-width:1024px) {
     .container{
@@ -161,7 +168,8 @@
     /* <section4> */
     /* <section5> */
     .section5-wrapper{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .sec5-text-wrapper{
         width: 100%;
@@ -248,13 +256,19 @@
     /* <section1> */
     /* <section2> */
     .box-wrapper{
-        flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
         margin-bottom: 30px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .box-wrapper2{
-        flex-wrap: wrap;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .right-box{
         width: 80%;
@@ -290,13 +304,18 @@
         width: 80%;
     }
     .imgbox-wrapper{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     /* <section3> */
     /* <section4> */
     .section4-wrapper{
-        flex-wrap: wrap;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .section4-text-wrapper{
         width: 80%;
@@ -308,7 +327,9 @@
      /* </section4> */
      /* <section5> */
      .section5-wrapper{
-         justify-content: center;
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
      }
      .sec5-text-wrapper{
         width: 80%;
@@ -355,7 +376,8 @@
         width: 80%;
     }
     .footer-wrapper{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .copy{
         max-width: 320px;
@@ -391,7 +413,9 @@
          line-height: 40px;
      } 
      .cust-box-wrapper{
-         justify-content: center;
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
      }
      /* <section6> */
      /* <section7> */
@@ -406,7 +430,8 @@
         width: 80%;
     }
     .footer-wrapper{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .footer-box:last-child{
         margin-top: 30px;
@@ -441,7 +466,8 @@
 }
 @media(max-width:654px){
     .map-section{
-        flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
     } 
     .map{
         width: 100%; 
@@ -550,7 +576,9 @@
         margin-bottom: 50px;
     }
     .team-img-wrapper{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .team-box{
         width: 80%;
@@ -603,7 +631,9 @@
         width: 90%;
     }
     .products{
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 
